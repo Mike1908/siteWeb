@@ -1,0 +1,53 @@
+.circle{
+    display: flex;
+    align-self:flex-start;
+    background-color:rgba(127, 64, 187, 0.308);
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    animation: ripple 15s infinite;
+}
+.circle3{
+    display: flex;
+    align-self:flex-start;
+    background-color:rgba(127, 64, 187, 0.308);
+    height: 400px;
+    width: 350px;
+    padding: 50px;
+    padding-left: 150px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    animation: ripple 15s infinite;
+}
+.circle2{
+    display: flex;
+    align-self:center;
+    background-color:rgba(127, 64, 187, 0.308);
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    padding-top: 80px;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    animation: ripple 15s infinite;
+}
+
+@keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }
+  
