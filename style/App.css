@@ -101,12 +101,7 @@ html{
     flex-direction: column;
     justify-content: center;
 }
-.omniC img{
-    height: 160px;
-    width: 155px;
-    margin-left: 45%;
-    z-index: -1;
-}
+
 .section-4 div h2{
     color: rgb(63, 57, 57);
     font-family: Georgia, 'Times New Roman', Times, serif;
