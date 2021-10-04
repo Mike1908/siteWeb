@@ -52,3 +52,20 @@
         margin: 5px;
     }
 }
+
+@media only screen and (max-width: 740px) {
+    .navmenu{
+        display: flex;
+        justify-content:flex-end;
+        margin-left: 4%;
+    }
+    .navbarrClas{
+        display: flex;
+        justify-content:flex-start;
+    }
+
+    .navmenu div a{
+        font-size: 80%;
+        margin: 5px;
+    }
+}
