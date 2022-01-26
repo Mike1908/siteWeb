@@ -6,13 +6,13 @@
     top: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     z-index:1;
     transition: 1s;
 }
 .navmenu{
     display: flex;
     align-items: center;
-    margin-left: 50%;
 }
 .navmenu div a{
     text-decoration:none;
@@ -37,11 +37,6 @@
     color: rgb(127, 64, 187);
 }
 @media only screen and (max-width: 600px) {
-    .navmenu{
-        display: flex;
-        justify-content:flex-start;
-        margin-left: 1%;
-    }
     .navbarrClas{
         display: flex;
         justify-content:flex-start;
@@ -54,14 +49,10 @@
 }
 
 @media only screen and (max-width: 740px) {
-    .navmenu{
-        display: flex;
-        justify-content:flex-end;
-        margin-left: 4%;
-    }
+
     .navbarrClas{
         display: flex;
-        justify-content:flex-start;
+        justify-content: space-between;
     }
 
     .navmenu div a{
