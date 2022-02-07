@@ -149,7 +149,7 @@ h4{
     justify-content: center;
 }
 
-.section-4 div h2{
+.titre-section-4 h2{
     color: rgb(63, 57, 57);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
@@ -160,17 +160,32 @@ h4{
 }
 .section-4-corp{
     display: flex;
-    justify-content:space-between;
-    align-items: center;
     margin: 10px;
 }
-.section-4-corp div{
+.paragraphe-section-4{
     margin: 1%;
-    color: rgb(127, 64, 187);
+    width:30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 .section-4-corp div h3{
     margin: 5%;
     text-align: center;
+    width:100%;
+    color: rgb(127, 64, 187);
+}
+
+.facebookC b{
+    color: rgba(0, 0, 255, 0.719);
+}
+.youTubeC b{
+    color:red;
+}
+.googleC b{
+    color:rgba(0, 0, 255, 0.719);
+}
+.googleC span{
+    color:red;
 }
 .section-5{ 
     background-color: black;
@@ -184,14 +199,7 @@ h4{
 .section-5 div{
     margin: 5%;
 }
-p{
-    color: black;
-    text-align: center;
-}
-.F b{color: rgb(0, 132, 255);}
-.G b{color: rgb(0, 132, 255);}
-.G b span{color:red}
-.Y b{color: red;}
+
 
 .section-6{
     background-color: rgb(63, 57, 57);
@@ -245,12 +253,16 @@ p{
 
     .section-4 div h2{
         font-size: 110%;
-        margin-top:15%;
+        margin-top:10%;
     }
     .section-4-corp{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .paragraphe-section-4{
+        width:100%;
     }
     .section-4-corp div h3{
         font-size: 100%;
