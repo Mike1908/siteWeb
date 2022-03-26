@@ -27,8 +27,9 @@
 }
 
 .infoXbox{
-    padding-top:2%;
-    margin-top:11%;
+    padding-top:5%;
+    margin-top:5%;
+    bottom:0px;
 
     display: flex;
 }
@@ -90,6 +91,9 @@
         font-size:medium;
     }
 
+    .metrique3{
+        flex-wrap: wrap;
+    }
     .metrique3 div {
         margin:6px;
         margin-bottom:0px;

@@ -37,8 +37,8 @@ button{
     border: 2px solid #fbfffb;
     border-radius: 15px;
     font-size:1rem;
-    height:8vh;
-    width:15vw;
+    height:45px;
+    width:160px;
     cursor:pointer;
 }
 
@@ -71,21 +71,6 @@ button:hover{
     .info{
         padding-top:60vh;
         width:100vw;
-        font-size:xx-large;
     }
-
-    .button_groupe{
-        margin:20px;
-    }
-    .button_groupe div{
-        margin:10px;
-    }
-
-    button{
-        border: 3px solid #fbfffb;
-        height:6vh;
-        width:25vw;
-        border-radius: 20px;
-        font-size:x-large;
-    }
+  
 }

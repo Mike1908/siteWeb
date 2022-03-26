@@ -77,6 +77,10 @@
         font-size:medium;
     }
 
+    .metrique2{
+        flex-wrap: wrap;
+    }
+
     .metrique2 div {
         margin:2px;
         margin-bottom:0px;
