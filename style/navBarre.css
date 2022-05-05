@@ -22,36 +22,36 @@
     align-items: center;
 }
 
-.menuCentral{
+.menuCenter{
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin-left:20%;
 }
 
-.menuCentral div{
+.menuCenter div{
     padding-left:15px;
     padding-right:15px;
     cursor:pointer;
 }
-.menuCentral div:hover{
+.menuCenter div:hover{
     background-color: black;
     border-radius: 15px;
     padding-left:15px;
     padding-right:15px;
 }
-.menuDroite{
+.menuRight{
     display:flex;
     justify-content: space-between;
 }
 
-.menuDroite div{
+.menuRight div{
     padding-left:15px;
     padding-right:15px;
     cursor:pointer;
 }
 
-.menuDroite div:hover{
+.menuRight div:hover{
     background-color: black;
     border-radius:15px;
 }
@@ -94,11 +94,11 @@ ul li:hover a{
         color: white;
         margin: 20px;
     }
-    .menu-B-droite{
+    .menu-B-right{
         display:flex;
     }
 
-    .menu-B-droite div{
+    .menu-B-right div{
         margin: 20px;
         margin-left:10px;
     }
@@ -106,10 +106,10 @@ ul li:hover a{
         display: none;
     }
 
-    .sousDroite{
+    .sousRight{
         display: none;
     }
-    .Compte:hover .sousDroite{
+    .account:hover .sousRight{
         display: block;
     }
     .article:hover .sousMenu{
@@ -120,7 +120,7 @@ ul li:hover a{
         position: relative;
         color: white;
     }
-    .Compte{
+    .account{
         color: white;
     }
 

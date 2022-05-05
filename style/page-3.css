@@ -4,20 +4,20 @@
     height:100vh;
     background:no-repeat center/100% url("../image/xbox-series-x-s.jpg");
 }
-.titrePage3{
+.titlePage3{
     text-align: center;
     color: white;
     font-size:x-large;
     padding-top:40px;
 }
 
-.metrique3{
+.metrical3{
     display: flex;
     justify-content: center;
     
 }
 
-.metrique3 div {
+.metrical3 div {
     margin:10px;
     margin-bottom:0px;
     display: flex;
@@ -38,12 +38,12 @@
    margin:10px;
 }
 
-.infoGauche{
+.infoLeft{
     background-color:rgba(0, 0, 0, 0.678);
     color:white;
     border-radius: 10px;
 }
-.infoDroite{
+.infoRight{
     background-color:rgba(255, 255, 255, 0.637);
     color:black;
     border-radius: 10px;
@@ -81,20 +81,20 @@
         height:110%;
     }
 
-    .infoGauche{
+    .infoLeft{
         height:100%;
         font-size:medium;
     }
 
-    .infoDroite{
+    .infoRight{
         height:100%;
         font-size:medium;
     }
 
-    .metrique3{
+    .metrical3{
         flex-wrap: wrap;
     }
-    .metrique3 div {
+    .metrical3 div {
         margin:6px;
         margin-bottom:0px;
     }
@@ -107,17 +107,17 @@
 }
 
 @media only screen and (max-width: 600px)  {
-    .infoGauche{
+    .infoLeft{
         height:100%;
         font-size:small;
     }
 
-    .infoDroite{
+    .infoRight{
         height:100%;
         font-size:small;
     }
 
-    .metrique3 div {
+    .metrical3 div {
         margin:2px;
         margin-bottom:0px;
     }

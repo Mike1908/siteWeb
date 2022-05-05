@@ -5,7 +5,7 @@
     background:no-repeat center/100% url("../image/Nintendo-Switch-OLED.jpg");
 }
 
-.titrePage4{
+.titlePage4{
     text-align: center;
     color: white;
     font-size:x-large;
@@ -30,13 +30,13 @@
     background-color:rgba(0, 0, 0, 0.678);
 }
 
-.metrique4{
+.metrical4{
     display: flex;
     justify-content: center;
     
 }
 
-.metrique4 div {
+.metrical4 div {
     margin:10px;
     margin-bottom:0px;
     bottom:0px;
@@ -46,7 +46,7 @@
     align-items: center;
 }
 
-#fin{
+#end{
     visibility:collapse;
 }
 
@@ -56,14 +56,14 @@
         background-size: 100% 100%;
     }
 
-    .titrePage4{
+    .titlePage4{
         color:black;
     }
 
     .infoNintendoSwitch{
         font-size: medium;
     }
-    .metrique4{
+    .metrical4{
         flex-wrap: wrap;
     }
 }
@@ -73,7 +73,7 @@
         font-size:small;
     }
 
-    .metrique4 div {
+    .metrical4 div {
         font-size: small;
         margin:5px;
         margin-bottom:0px;

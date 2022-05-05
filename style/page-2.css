@@ -6,7 +6,7 @@
 }
 
 
-.titrePage2{
+.titlePage2{
     text-align: center;
     color: white;
     font-size:x-large;
@@ -28,7 +28,7 @@
     background-color:rgba(0, 0, 0, 0.678);
 }
 
-.suivant{
+.next-page{
     padding-top:3px;
     margin-top:17px;
     text-align: center;
@@ -36,14 +36,14 @@
     font-size:Xx-large;
 }
 
-.metrique2{
+.metrical2{
     display: flex;
     justify-content: center;
     color: white;
     
 }
 
-.metrique2 div {
+.metrical2 div {
     margin:10px;
     margin-bottom:0px;
     display: flex;
@@ -77,11 +77,11 @@
         font-size:medium;
     }
 
-    .metrique2{
+    .metrical2{
         flex-wrap: wrap;
     }
 
-    .metrique2 div {
+    .metrical2 div {
         margin:2px;
         margin-bottom:0px;
         font-size:medium;
@@ -92,7 +92,7 @@
     .infoPs5{
         font-size:small;
     }
-    .metrique2 div {
+    .metrical2 div {
         font-size: small;
     }
 }

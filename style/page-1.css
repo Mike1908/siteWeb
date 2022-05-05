@@ -23,11 +23,11 @@
     align-items: center;
     padding-bottom:1vh;
 }
-.button_groupe{
+.button_group{
     margin:20px;
     display: flex;
 }
-.button_groupe div{
+.button_group div{
     margin:10px;
     margin-top:10px;
 }
